@@ -54,11 +54,13 @@ cat ~/lab0/feebas3/starmie >> ~/lab0/grotle1_31 | cat ~/lab0/feebas3/starmie >> 
 # cat: cannot open /home/s311725/lab0/feebas3/starmie
 chmod u+r ~/lab0/feebas3/starmie
 cat ~/lab0/feebas3/starmie >> ~/lab0/grotle1_31 | cat ~/lab0/feebas3/starmie >> ~/lab0/grotle1_31
+chmod u-r ~/lab0/feebas3/starmie
 
 cp ~/lab0/grotle1 ~/lab0/reuniclus5/silcoon
 # cp: cannot open /home/s311725/lab0/grotle1: Permission denied
 chmod u+r ~/lab0/grotle1 
 cp ~/lab0/grotle1 ~/lab0/reuniclus5/silcoon
+chmod u-r ~/lab0/grotle1
 
 ln -s ~/lab0/grotle1 ~/lab0/feebas3/starmiegrotle
 ln -s ~/lab0/reuniclus5 ~/lab0/Copy_33
@@ -66,11 +68,13 @@ cp -r ~/lab0/feebas3/ ~/lab0/nidorino1/lairon
 # cp: /home/s311725/lab0/nidorino1/lairon/feebas3/: Permission denied
 chmod u+r ~/lab0/feebas3 | chmod u+w ~/lab0/nidorino1/lairon
 cp -r ~/lab0/feebas3/ ~/lab0/nidorino1/lairon
+chmod u-r ~/lab0/feebas3 | chmod u-w ~/lab0/nidorino1/lairon
 
 cat ~/lab0/remoraid2 > ~/lab0/reuniclus5/gibleremoraid
 # cat: cannot open /home/s311725/lab0/remoraid2
 chmod u+r ~/lab0/remoraid2
 cat ~/lab0/remoraid2 > ~/lab0/reuniclus5/gibleremoraid
+chmod u-r ~/lab0/remoraid2
 
 ln ~/lab0/remoraid2 ~/lab0/nidorino1/venonatremoraid
 
