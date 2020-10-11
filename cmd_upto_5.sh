@@ -115,7 +115,7 @@ ln ~/lab0/remoraid2 ~/lab0/nidorino1/venonatremoraid
 # total 0
 
 #4
-wc -l $(ls ~/lab0/feebas3/starmie ~/lab0/nidorino1/gothorita ~/lab0/nidorino1/venonat ~/lab0/reuniclus5/deerling) |  sort -r
+wc -l ~/lab0/feebas3/starmie ~/lab0/nidorino1/gothorita ~/lab0/nidorino1/venonat ~/lab0/reuniclus5/deerling |  sort -r
 # wc: cannot open /home/s311725/lab0/nidorino1/gothorita
 # wc: cannot open /home/s311725/lab0/nidorino1/venonat
 #       3 total
@@ -123,7 +123,7 @@ wc -l $(ls ~/lab0/feebas3/starmie ~/lab0/nidorino1/gothorita ~/lab0/nidorino1/ve
 #       1 /home/s311725/lab0/reuniclus5/deerling
 mkdir tmp
 ls -Rlt 2>>/tmp/file | grep n$ | head -2
-cat $(ls -d ./r* ./*/r* ./*/*/r*) | sort
+cat ./r* ./*/r* ./*/*/r* | sort
 ls -Rlu | grep 1$
 # ./nidorino1: Permission denied
 # ./reuniclus5: Permission denied
